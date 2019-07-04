@@ -13,11 +13,11 @@ spring:
       prefix: /WEB-INF/views/
       suffix: .jsp
   datasource:
-    url:  jdbc:mysql://127.0.0.1:3307/student?characterEncoding=UTF-8
+    url:  jdbc:mysql://127.0.0.1:3306/springboot?characterEncoding=UTF-8
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
     hibernate:
-    ddl-auto: update #新增数据库链接必备参数
+      ddl-auto: update #新增数据库链接必备参数
     show-sql: true
