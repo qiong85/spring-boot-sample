@@ -1,7 +1,7 @@
 server:
   port: 8082
-#  servlet:
-#    context-path: /hello
+  servlet:
+    context-path: /api
 student:
   name: qliu84
   age: 24
